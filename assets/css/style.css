@@ -1,0 +1,91 @@
+@import "../css/bootstrap.css";
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/titilliumweb/v15/NaPecZTIAOhVxoMyOr9n_E7fRMQ.ttf) format('truetype');
+}
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+.header {
+  background: #50569c;
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+.header .col-sm-12 {
+  text-align: center;
+}
+.header .logo {
+  display: inline-block;
+  width: 92px;
+  height: 40px;
+  background-image: url("../img/sLap..svg");
+}
+.header .menu {
+  display: inline-block;
+  margin-top: 6px;
+}
+.header .menu a {
+  margin-left: 27px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 18px;
+  transition: .5s;
+}
+.header .menu a:hover {
+  border-radius: 10%;
+  background-color: #3a3e75;
+  transition: .5s;
+}
+.header .menu .active {
+  border-radius: 10%;
+  background-color: #3a3e75;
+}
+.header .col-xl-12 {
+  color: #fff;
+  text-align: center;
+}
+.header .col-xl-12 h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.header .col-xl-12 .title {
+  display: inline-block;
+  margin-top: 133px;
+}
+.header .col-xl-12 .button {
+  background-color: #EB7D4B;
+  padding: 21px 82px;
+  margin-top: 26px;
+  border: none;
+  transition: .5s;
+}
+.header .col-xl-12 .button:hover {
+  background-color: #f5783e;
+  transition: .5s;
+}
+.team {
+  background: #e7f1f8;
+  text-align: center;
+  height: 100vh;
+}
+.team .title {
+  margin-top: 60px;
+  display: inline-block;
+}
+.team .title h1 {
+  font-size: 41px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.team .line {
+  display: inline-block;
+  width: 87px;
+  height: 5px;
+  background-color: #BDD1DF;
+}
+/*# sourceMappingURL=style.css.map */
