@@ -71,7 +71,7 @@ body {
 .team {
   background: #e7f1f8;
   text-align: center;
-  height: 100vh;
+  height: 100%git;
 }
 .team .title {
   margin-top: 60px;
@@ -80,12 +80,59 @@ body {
 .team .title h1 {
   font-size: 41px;
   font-weight: 700;
+  line-height: 10px;
   text-transform: uppercase;
 }
 .team .line {
   display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 30px;
   width: 87px;
   height: 5px;
   background-color: #BDD1DF;
+}
+.team .col-xl-3 {
+  text-align: center;
+}
+.team .col-xl-3 .image {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+.team .col-xl-3 .image img {
+  width: 100%;
+  border-radius: 50%;
+}
+.team .col-xl-3 .name {
+  display: inline-block;
+  margin-top: 34px;
+}
+.team .col-xl-3 .name h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.team .col-xl-3 .name p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #30BAE7;
+}
+.team .col-xl-3 .about {
+  display: inline-block;
+  width: 240px;
+}
+.team .col-xl-3 .about p {
+  display: block;
+}
+.team .col-xl-4 {
+  text-align: center;
+}
+.team .col-xl-4 .about-more {
+  display: inline-block;
+}
+.team .col-xl-4 .about-more h2 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
