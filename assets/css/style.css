@@ -1,4 +1,3 @@
-@import "../css/bootstrap.css";
 @font-face {
   font-family: 'Titillium Web';
   font-style: normal;
@@ -15,6 +14,7 @@ body {
   position: fixed;
   padding-top: 18px;
   padding-bottom: 12px;
+  z-index: 8;
 }
 .header .col-sm-12 {
   text-align: center;
@@ -90,9 +90,14 @@ body {
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 30px;
-  width: 87px;
+  width: 100px;
   height: 5px;
   background-color: #BDD1DF;
+  animation-name: line;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
 }
 .team .col-xl-3 {
   text-align: center;
@@ -137,6 +142,61 @@ body {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.subheader {
+  height: 100%;
+  background-color: #50569c;
+}
+.subheader h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.popup {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
+  padding-top: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+}
+.popup-content {
+  text-align: center;
+  height: 150px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.popup-close {
+  position: absolute;
+  top: -20px;
+  right: -30px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 30px;
+}
+.popup-header {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.popup-content {
+  width: 270px;
+}
+@keyframes line {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 50px;
+  }
 }
 @media (max-width: 767px) {
   .header .menu a {
