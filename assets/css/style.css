@@ -165,9 +165,9 @@ body {
 }
 .popup-content {
   text-align: center;
-  height: 150px;
   width: 400px;
   background-color: #fff;
+  margin-bottom: 10px;
   border-radius: 10px;
   position: fixed;
   left: 50%;
@@ -186,6 +186,21 @@ body {
   padding-top: 10px;
   font-size: 24px;
   font-weight: 500;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .col-xl-12 {
+  display: inline-block;
 }
 .popup-content {
   width: 270px;
