@@ -8,6 +8,10 @@
 body {
   font-family: 'Titillium Web', sans-serif;
 }
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
 .header {
   background: #50569c;
   width: 100%;
@@ -50,10 +54,6 @@ body {
 .header .col-xl-12 {
   color: #fff;
   text-align: center;
-}
-.header .col-xl-12 h1 {
-  font-size: 42px;
-  font-weight: 700;
 }
 .header .col-xl-12 .title {
   display: inline-block;
