@@ -11,6 +11,10 @@ body {
 h1 {
   font-size: 42px;
   font-weight: 700;
+  transition: all 0.8s;
+}
+h1:hover {
+  transform: translateY(5px);
 }
 .header {
   background: #50569c;
@@ -174,7 +178,7 @@ h1 {
   height: 5px;
   background-color: #BDD1DF;
   animation-name: line;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-play-state: running;
@@ -191,6 +195,10 @@ h1 {
 .home h1 {
   margin-top: 80px;
   text-transform: uppercase;
+  transition: all 0.8s;
+}
+.home h1:hover {
+  transform: translateY(5px);
 }
 .footer {
   background-color: #333;
@@ -212,10 +220,10 @@ h1 {
 }
 @keyframes line {
   0% {
-    width: 100px;
+    transform: scale(1.5, 1);
   }
   100% {
-    width: 50px;
+    transform: scale(0.5, 1);
   }
 }
 @media (max-width: 767px) {
